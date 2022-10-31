@@ -1,0 +1,73 @@
+{
+  "functions": {
+    "pages/api/collection/index.ts": {
+      "memory": 128
+    },
+    "pages/api/collection/review.ts": {
+      "memory": 256
+    },
+    "pages/api/minting/verify.ts": {
+      "memory": 128
+    },
+    "pages/api/notify/index.ts": {
+      "memory": 256
+    },
+    "pages/api/notify/os.ts": {
+      "memory": 256
+    },
+    "pages/api/opensea/refresh.ts": {
+      "memory": 128
+    },
+    "pages/api/proxy/token-ids.ts": {
+      "memory": 128
+    },
+    "pages/api/proxy/owners.ts": {
+      "memory": 128
+    },
+    "pages/api/proxy/max-index.ts": {
+      "memory": 128
+    },
+    "pages/api/proxy/hash.ts": {
+      "memory": 128
+    },
+    "pages/api/proxy/address-name.ts": {
+      "memory": 128
+    },
+    "pages/api/prerender/genesis.ts": {
+      "memory": 192
+    },
+    "pages/api/prerender/saga.ts": {
+      "memory": 192
+    },
+    "pages/api/token-metadata/base": {
+      "memory": 256
+    },
+    "pages/api/token-metadata/create-signed-text": {
+      "memory": 512
+    },
+    "pages/api/token-metadata/create": {
+      "memory": 512
+    },
+    "pages/api/token-metadata/documents-and-infos": {
+      "memory": 256
+    },
+    "pages/api/token-metadata/index": {
+      "memory": 1024
+    },
+    "pages/api/token-metadata/optimistic": {
+      "memory": 1024
+    },
+    "pages/api/verdict/change-status": {
+      "memory": 512
+    },
+    "pages/api/verdict/create": {
+      "memory": 512
+    },
+    "pages/api/verdict/request": {
+      "memory": 512
+    },
+    "pages/api/verdict/vote": {
+      "memory": 512
+    }
+  }
+}
